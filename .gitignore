@@ -1,0 +1,10 @@
+# 运行期日志与临时产物（不入库）
+Log/
+deploy_gh.py
+gen_og.py
+inject_og.py
+inject_og2.py
+verify_full.py
+*.pyc
+__pycache__/
+.DS_Store
