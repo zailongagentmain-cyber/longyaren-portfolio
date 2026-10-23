@@ -21,7 +21,7 @@
     <meta name="twitter:title" content="Multi-Engine AI Search Optimization in 2026: ChatGPT, Perplexity, Gemini, AI Overviews">
     <meta name="twitter:description" content="Each AI engine crawls, indexes and cites differently. Here is how ChatGPT, Perplexity, Gemini, AI Overviews and Copilot actually pick sources, and the content each one rewards.">
     <meta name="twitter:image" content="https://zailongagentmain-cyber.github.io/longyaren-portfolio/og/multi-engine-ai-search-2026.png">
-    <meta name="twitter:image:alt" content="multi engine ai search optimization 2026">
+    <meta name="twitter:image:alt" content="multi-engine ai search optimization 2026">
     <meta property="og:site_name" content="Longyaren Portfolio">
 
     <script type="application/ld+json">
@@ -133,9 +133,9 @@
 
 <p>The strategy that dominated 2024 and 2025 was simple: make your content extractable, put the answer up top, add structured data, earn mentions, and watch AI referrals arrive. That advice was not wrong. It was incomplete in a way that becomes expensive the moment you split your reporting by engine.</p>
 
-<p>Three facts about 2026 make per-engine work mandatory rather than optional.</p>
+<p>Three facts about 2026 make per-engine work mandatory rather than optional.</p><p>The access layer underneath this map is where most teams lose the trail, and <a href="ai-crawler-access-log-analysis-2026.html">AI crawler access control and log analysis in 2026</a> covers the log workflow that proves it. Measuring each engine separately is cheaper once you can see what was actually fetched, and <a href="geo-roi-attribution-2026.html">GEO ROI and attribution in 2026</a> shows how the log layer feeds the attribution model. The structural reason to build per-engine versions instead of one page is set out in <a href="geo-topic-clusters-refresh-2026.html">AI search topic clusters and content refresh in 2026</a>.</p>
 
-<p><strong>First, the citation pools barely overlap.</strong> Analysis of multi-engine citation data in 2026 found roughly 11% overlap in cited domains across engine families. Even Google's own two surfaces do not agree with each other: AI Overview citations overlap Google's traditional top ten only around 17%. This means a page being invisible on one engine tells you nothing about the others, and a strategy that only tracks one engine is measuring a sample of one.</p>
+<p><strong>First, the citation pools barely overlap.</strong> Analysis of multi-engine citation data in 2026 found roughly 11% overlap in cited domains across engine families. Even Google's own two surfaces do not agree with each other: AI Overviews citations overlap Google's traditional top ten only around 17%. This means a page being invisible on one engine tells you nothing about the others, and a strategy that only tracks one engine is measuring a sample of one.</p>
 
 <p><strong>Second, the mechanics differ at every layer.</strong> Each engine has its own crawler with its own purpose, its own index, its own retrieval layer, its own query expansion behaviour, and its own citation display. Perplexity answers cite 16.35 sources on average and pull roughly 46.7% of its top-ten citations from Reddit, a community-sourced validation pattern. ChatGPT answers average 6.88 sources and lean on encyclopedic and professional-network sources. Google AI Overviews draw from Google's own index plus video. These are not cosmetic differences — they are different selection functions, and content that wins one can be ignored by another.</p>
 
@@ -200,7 +200,7 @@
 
 <h3>Google: one index, three surfaces, and one misread token</h3>
 
-<p>Google's AI Overviews, AI Mode and Gemini all draw from Google's own index, crawled by <code>Googlebot</code>. AI Overviews appear above the traditional results; AI Mode is a conversational experience that fans the query out into parallel subqueries; Gemini is the standalone assistant with its own surface list, including in-vehicle queries and Notebook sessions. The practical consequence of that shared pool is that Gemini citation work and AI Overview citation work are the same investment, and both are inherited from classic Google ranking.</p>
+<p>Google's AI Overviews, AI Mode and Gemini all draw from Google's own index, crawled by <code>Googlebot</code>. AI Overviews appear above the traditional results; AI Mode is a conversational experience that fans the query out into parallel subqueries; Gemini is the standalone assistant with its own surface list, including in-vehicle queries and Notebook sessions. The practical consequence of that shared pool is that Gemini citation work and AI Overviews citation work are the same investment, and both are inherited from classic Google ranking.</p>
 
 <p><code>Google-Extended</code> is the token most teams misread. It is a product-control setting covering Gemini training and grounding uses. It is not a separate HTTP crawler, and — per Google's own documentation — it does not affect Google Search indexing or ranking. Only standard Googlebot controls such as <code>nosnippet</code> affect whether your content appears in AI Overviews. The common claim that "blocking Google-Extended removes you from AI Overviews" is wrong, and acting on it means you blocked training and kept search, or believed you had protected search when you had not protected anything at all. Google has also stated that there is no separate AI index, that <code>llms.txt</code> is not used in Search, and that no special markup is required for AI features.</p>
 
@@ -224,7 +224,7 @@
 
 <h3>AI Overviews and AI Mode: extractability from Google's own index</h3>
 
-<p>Because AI Overviews draw candidates from Google's ranked results, classic SEO remains the foundation — but the extraction layer has its own preferences. Google's own guidance for generative AI features emphasizes text that exists in the page, internal links that make content discoverable, and structured data that matches visible content. Empirically, AI Overviews cite pages that are close to featured-snippet-shaped: a 40-to-60-word direct answer paragraph near the top, question-shaped headings, and short declarative statements that can be lifted as a complete sentence. The March 2026 core update reinforced this by pushing the ecosystem toward demonstrably useful, entity-anchored content, and AI Overview behaviour tracked it.</p>
+<p>Because AI Overviews draw candidates from Google's ranked results, classic SEO remains the foundation — but the extraction layer has its own preferences. Google's own guidance for generative AI features emphasizes text that exists in the page, internal links that make content discoverable, and structured data that matches visible content. Empirically, AI Overviews cite pages that are close to featured-snippet-shaped: a 40-to-60-word direct answer paragraph near the top, question-shaped headings, and short declarative statements that can be lifted as a complete sentence. The March 2026 core update reinforced this by pushing the ecosystem toward demonstrably useful, entity-anchored content, and AI Overviews behaviour tracked it.</p>
 
 <p>One high-leverage detail from 2026 research: pages ranking for a <em>cluster</em> of related subqueries were dramatically more likely to be cited than pages ranking for the head query alone. Google's query fan-out rewrites one question into many parallel retrievals — equivalence, follow-up, generalisation, specification, clarification — and a page that covers the cluster can match several of them while a page that covers only the head query matches one. Topic clusters are not an authority-building nicety here; they are how you get retrieved more than once per prompt.</p>
 
@@ -352,6 +352,16 @@
 
 <p>Start with permissions, because that is where the cheapest wins are still sitting unclaimed. Then measure per engine, because you cannot improve a number you are not reporting separately. Then write once, with the components that satisfy all five. Everything else is refinement.</p>
 
+
+<div class="related-reading">
+    <h2>Related Reading</h2>
+    <ul>
+            <li><a href="ai-crawler-access-log-analysis-2026.html">AI crawler access control and log analysis in 2026</a> — proving the permission layer with real server logs</li>
+            <li><a href="geo-roi-attribution-2026.html">GEO ROI and attribution in 2026</a> — attributing AI traffic when last-click fails</li>
+            <li><a href="geo-citation-tracking-2026.html">AI citation tracking in 2026</a> — measuring each engine separately</li>
+            <li><a href="geo-topic-clusters-refresh-2026.html">AI search topic clusters and content refresh</a> — adapting one page into a cluster that engines read as one authority</li>
+    </ul>
+</div>
 <footer>
     <p><strong>Written by Long Yaren</strong> — freelance SEO &amp; GEO consultant. I help B2B and D2C brands build measurable visibility in AI search, not just rankings. Available for projects via <a href="https://www.upwork.com/freelancers/longyaren" target="_blank" rel="noopener">Upwork</a>.</p>
     <p>Sources referenced in this article: OpenAI crawler documentation (four agents, independent robots.txt settings, ~24-hour propagation delay, published IP ranges); Perplexity crawler documentation (PerplexityBot and Perplexity-User, published IP endpoints, robots.txt behaviour); Anthropic crawler documentation (ClaudeBot, Claude-SearchBot, Claude-User) and Google Webmasters documentation on Google-Extended, Googlebot and AI features; Bing Webmaster Guidelines; Cloudflare's 15 September 2026 AI crawler policy update; multi-engine citation analyses (Zhang/He/Yao, April 2026 — 21,143 citations; 168,000-citation study across 128 brands and 12 markets, June 2026; 7,683-page freshness study, July 2026; 45-study GEO review, July 2026; 10-engine retest, September 2026); Ahrefs brand-mention study (75,000 brands) and Schema controlled experiment (1,885 pages vs 4,000 controls, May 2026); a 174-site Cloudflare AI traffic study (verifyagents.org / Complete SEO, September 2026); a 2026 peer-reviewed study of 973 e-commerce sites and 50,000+ ChatGPT-attributed transactions; Adobe 2025 holiday-season analytics; Similarweb global AI referral data; GA4 AI Assistant channel documentation (13 May 2026); Web Bot Auth and AWS WAF support (November 2025). Figures are point-in-time study results with differing methods and sample sizes; correlation is not causation, and no vendor publishes its citation weighting.</p>
