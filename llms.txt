@@ -40,6 +40,7 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 文章：
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-crawler-access-log-analysis-2026.html — AI Crawler Access Control & Log Analysis in 2026: The Technical GEO Layer
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/llms-txt-ai-crawler-discovery-2026.html — llms.txt in 2026: Does It Actually Work for AI Crawlers?
 
 ## Cluster C4 — 内容质量、实体与主题集群
 
@@ -53,8 +54,9 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 
 ---
 
-## 全部文章索引（15 篇）
+## 全部文章索引（16 篇）
 
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/llms-txt-ai-crawler-discovery-2026.html — llms.txt in 2026: Does It Actually Work for AI Crawlers?
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-topic-clusters-refresh-2026.html — AI Search Topic Clusters & Content Refresh in 2026: Get Cited, Then Stay Cited
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/multi-engine-ai-search-2026.html — Multi-Engine AI Search Optimization in 2026: ChatGPT, Perplexity, Gemini, AI Overviews
