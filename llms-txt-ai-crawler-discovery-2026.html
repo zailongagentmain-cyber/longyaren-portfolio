@@ -182,6 +182,7 @@
     </style>
 </head>
 <body>
+<article>
 
 <header>
     <h1>llms.txt in 2026: Does It Actually Work for AI Crawlers?</h1>
@@ -621,7 +622,7 @@ curl -sS https://example.com/robots.txt | grep -nE 'Disallow: /llms\.txt|Disallo
 
 <h3>Week 4 — Write the file and the machine-discoverable links</h3>
 
-<p>Write the file to the specification: H1, blockquote summary, a short orientation section, then H2-delimited file lists where each entry is a Markdown link with a colon-and-note. Keep the whole file small enough to read in one go. Then make it machine-discoverable using the v2 link relations — <code>rel="alternate" type="text/markdown"</code> and <code>rel="describedby"</code> — either as HTML <code>&lt;link&gt;</code> elements in the head or as an HTTP <code>Link:</code> response header, and the header route is worth preferring where you can, because it can be added in server or CDN configuration without modifying any pages (<a href="https://llmstxt.org/" rel="nofollow noopener" target="_blank">llms-txt, 2026</a>).</p>
+<p>Write the file to the specification: H1, blockquote summary, a short orientation section, then H2-delimited file lists where each entry is a Markdown link with a colon-and-note. Keep the whole file small enough to read in one go. Then make it machine-discoverable using the v2 link relations — <code>rel="alternate" type="text/markdown"</code> and <code>rel="describedby"</code> — either as HTML <code>&lt;link&gt;</code> elements in the head or as an HTTP <code>Link:</code> response header, and the header route is worth preferring where you can, because it can be added in server or CDN configuration without modifying any page at all (<a href="https://llmstxt.org/" rel="nofollow noopener" target="_blank">llms-txt, 2026</a>).</p>
 
 <p>Also, in week 4, publish the Markdown siblings for at least the ten most important pages. The value of the file is proportional to the value of what it points at. If you can only do one thing from this whole plan, do this one: an <code>llms.txt</code> with no Markdown targets is a list, and a list does not save anybody a parsing step.</p>
 
