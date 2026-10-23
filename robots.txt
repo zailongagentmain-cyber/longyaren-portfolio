@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://zailongagentmain-cyber.github.io/longyaren-portfolio/sitemap.xml
+
+# llms.txt — 面向 LLM 爬虫的站点索引与文章清单（非搜索引擎 sitemap）
+# https://zailongagentmain-cyber.github.io/longyaren-portfolio/llms.txt

@@ -1,0 +1,72 @@
+# Longyaren — SEO & GEO 文章作品集
+
+> https://zailongagentmain-cyber.github.io/longyaren-portfolio/
+
+Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，本站收录其在 AI 搜索优化方向的实战文章合集。内容覆盖 AI Overviews 优化、实体 SEO 与知识图谱权威度、多引擎 AI 搜索可见性、GEO 度量与归因，以及 Google 核心算法更新。
+
+所有文章均带有结构化数据（JSON-LD），并维护真实的 `datePublished` / `dateModified` 与 sitemap `lastmod`。
+
+---
+
+## Cluster C1 — GEO 策略与算法更新
+
+支柱页：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-guide-2026.html
+  Complete GEO guide：如何系统性地为 Google AI Overviews 做优化，是本站 GEO 主题集群的入口与总纲。
+
+文章：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-vs-traditional-seo-2026.html — GEO vs Traditional SEO: Master AI Search Engine Optimization in 2026
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-seo-unified-strategy-2026.html — GEO + SEO = One Strategy: Why the March 2026 Update Made Them Indistinguishable
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/march-2026-core-update.html — Google March 2026 Core Update: What Actually Changed and How to Recover
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/march-2026-core-update-deep-dive-2026.html — March 2026 Core Update: Why 90% of Rankings Changed and What Actually Recovered
+
+## Cluster C2 — GEO 度量与 ROI
+
+支柱页：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-roi-attribution-2026.html
+  GEO ROI 与归因：在排名失效之后，如何用引用与链路数据证明 AI 搜索真正带来营收。
+
+文章：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-citation-tracking-2026.html — AI Citation Tracking in 2026: How to Measure GEO When Rankings Stop Working
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-visibility-2026.html — How to Get Your Content Cited in AI Overviews (2026 Strategy)
+
+## Cluster C3 — 爬虫与多引擎可见性
+
+支柱页：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/multi-engine-ai-search-2026.html
+  多引擎 AI 搜索优化：同时面向 ChatGPT、Perplexity、Gemini 与 AI Overviews 的统一策略。
+
+文章：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-crawler-access-log-analysis-2026.html — AI Crawler Access Control & Log Analysis in 2026: The Technical GEO Layer
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
+
+## Cluster C4 — 内容质量、实体与主题集群
+
+支柱页：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-topic-clusters-refresh-2026.html
+  主题集群与内容刷新：先被引用、再持续被引用的内容维护方法。
+
+文章：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-human-content-hybrid-2026.html — AI + Human Content Hybrid: The 2026 SEO Strategy That Actually Works
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/entity-seo-knowledge-graph-authority-2026.html — Entity SEO: Build Knowledge Graph Authority and Dominate AI Search Results
+
+---
+
+## 全部文章索引（14 篇）
+
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-topic-clusters-refresh-2026.html — AI Search Topic Clusters & Content Refresh in 2026: Get Cited, Then Stay Cited
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/multi-engine-ai-search-2026.html — Multi-Engine AI Search Optimization in 2026: ChatGPT, Perplexity, Gemini, AI Overviews
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-roi-attribution-2026.html — GEO ROI & Attribution in 2026: How to Prove AI Search Drives Revenue
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-crawler-access-log-analysis-2026.html — AI Crawler Access Control & Log Analysis in 2026: The Technical GEO Layer
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-citation-tracking-2026.html — AI Citation Tracking in 2026: How to Measure GEO When Rankings Stop Working
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-guide-2026.html — How to Optimize for Google AI Overviews in 2026: The Complete GEO Guide
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-seo-unified-strategy-2026.html — GEO + SEO = One Strategy: Why the March 2026 Update Made Them Indistinguishable
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-vs-traditional-seo-2026.html — GEO vs Traditional SEO: Master AI Search Engine Optimization in 2026
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/entity-seo-knowledge-graph-authority-2026.html — Entity SEO: Build Knowledge Graph Authority and Dominate AI Search Results
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-human-content-hybrid-2026.html — AI + Human Content Hybrid: The 2026 SEO Strategy That Actually Works
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-visibility-2026.html — How to Get Your Content Cited in AI Overviews (2026 Strategy)
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/march-2026-core-update-deep-dive-2026.html — March 2026 Core Update: Why 90% of Rankings Changed and What Actually Recovered
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/march-2026-core-update.html — Google March 2026 Core Update: What Actually Changed and How to Recover
+
+Sitemap: https://zailongagentmain-cyber.github.io/longyaren-portfolio/sitemap.xml
