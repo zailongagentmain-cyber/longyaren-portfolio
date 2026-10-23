@@ -28,6 +28,7 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 
 文章：
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-citation-tracking-2026.html — AI Citation Tracking in 2026: How to Measure GEO When Rankings Stop Working
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-citation-volatility-2026.html — AI Citation Volatility in 2026: Why the Same Prompt Cites You Today and Not Tomorrow
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-visibility-2026.html — How to Get Your Content Cited in AI Overviews (2026 Strategy)
 
 ## Cluster C3 — 爬虫与多引擎可见性
@@ -52,7 +53,7 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 
 ---
 
-## 全部文章索引（14 篇）
+## 全部文章索引（15 篇）
 
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-topic-clusters-refresh-2026.html — AI Search Topic Clusters & Content Refresh in 2026: Get Cited, Then Stay Cited
@@ -60,6 +61,7 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-roi-attribution-2026.html — GEO ROI & Attribution in 2026: How to Prove AI Search Drives Revenue
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-crawler-access-log-analysis-2026.html — AI Crawler Access Control & Log Analysis in 2026: The Technical GEO Layer
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-citation-tracking-2026.html — AI Citation Tracking in 2026: How to Measure GEO When Rankings Stop Working
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-citation-volatility-2026.html — AI Citation Volatility in 2026: Why the Same Prompt Cites You Today and Not Tomorrow
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-guide-2026.html — How to Optimize for Google AI Overviews in 2026: The Complete GEO Guide
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-seo-unified-strategy-2026.html — GEO + SEO = One Strategy: Why the March 2026 Update Made Them Indistinguishable
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-vs-traditional-seo-2026.html — GEO vs Traditional SEO: Master AI Search Engine Optimization in 2026
