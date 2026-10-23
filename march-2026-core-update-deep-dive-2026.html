@@ -190,16 +190,18 @@
                 <li><strong>Mass-produced AI content without oversight</strong> (reads fluently but adds nothing unique) → dropping significantly</li>
             </ul>
             
-            <h2>Core Web Vitals: New Standards</h2>
+            <h2>Core Web Vitals: A Widely Circulated Claim, and What Still Holds</h2>
             
-            <p>Google moved from per-page CWV scoring to <strong>site-wide aggregation</strong>. A few slow-loading pages can now drag down rankings for your entire domain.</p>
+            <p>A claim that spread quickly through the SEO discourse in spring 2026 was that Google had moved from per-page CWV scoring to <strong>site-wide aggregation</strong>, so that a handful of slow pages could drag down an entire domain. That claim traces to a single April 2026 source and has not been corroborated by Google or by a second independent dataset, so this article does not treat it as an established mechanism. The correction is set out in full in <a href="march-2026-core-update.html">the seven-month retrospective on the March 2026 update</a>.</p>
             
-            <p>Additionally, thresholds tightened:</p>
+            <p>The operational advice survives even though the mechanism claim does not. Page speed demonstrably matters, and it now matters for AI citation rates as much as for ranking: pages with a First Contentful Paint under 0.4 seconds are around three times more likely to be cited by ChatGPT than pages exceeding 1.13 seconds, and on Google AI Mode an LCP worse than 1.85 seconds carries the lowest measured citation odds of any category (TechDrifting, 29 Jun 2026). The widely circulated threshold change should be read as <strong>single-sourced</strong>, not as a confirmed official threshold:</p>
             <ul>
-                <li><strong>LCP "good" threshold:</strong> Lowered from 2.5s to <strong>2.0s</strong></li>
-                <li><strong>INP:</strong> Below <strong>150ms</strong> now required (previously 200ms)</li>
+                <li><strong>LCP "good" threshold:</strong> widely reported as tightened from 2.5s to <strong>2.0s</strong> — single-sourced, not corroborated by Google</li>
+                <li><strong>INP:</strong> widely reported as tightening to below <strong>150ms</strong> (previously 200ms) — same single source, same caveat</li>
                 <li><strong>CLS:</strong> Remains at 0.1</li>
             </ul>
+            
+            <p>What is independently verifiable is a correlation rather than a threshold change: HTTP Archive data suggested 43% of websites still fail the LCP threshold on mobile connections, and sites with a Largest Contentful Paint above four seconds on mobile experienced sharper drops than in previous core updates (Alpative's March 2026 analysis). Either way, faster pages remain the safer default — just not because a domain-wide penalty was introduced.</p>
             
             <h2>How to Recover: The 4-Step Action Plan</h2>
             
@@ -209,7 +211,7 @@
             <h3>Step 2: Strengthen E-E-A-T Signals</h3>
             <p>Add detailed author bios with verifiable credentials and LinkedIn links to every blog post. Create or update your About page with team expertise. Include case studies with real client results.</p>
             
-            <h3>Step 3: Fix Core Web Vitals Site-Wide</h3>
+            <h3>Step 3: Fix Core Web Vitals Across Your Templates</h3>
             <p>Run a full site audit through PageSpeed Insights. Prioritize highest-traffic templates first. Technical fixes show results in 4-8 weeks.</p>
             
             <h3>Step 4: Structure Content for AI Citation</h3>
