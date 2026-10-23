@@ -8,3 +8,6 @@ verify_full.py
 *.pyc
 __pycache__/
 .DS_Store
+
+# 本轮 OG 生成脚本（不入库）
+gen_og_new.py
