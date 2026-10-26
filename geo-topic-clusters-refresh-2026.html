@@ -189,7 +189,7 @@
 
 <h3>5. Coverage that extends past your own pages</h3>
 
-<p>A cluster is not only on your domain. For commercial topics, third-party listicles, review platforms and community threads capture a large share of AI citations — in some published breakdowns, a substantial share of commercial-intent AI citations point at third-party listicles rather than vendor sites. Review-platform profiles alone have been associated with materially higher citation likelihood for B2B brands, and cited articles appear disproportionately on review platforms compared with uncited ones.</p>
+<p>A cluster is not only on your domain. For commercial topics, third-party listicles, review platforms and community threads capture a large share of AI citations — the vendor's own page is the backup rather than the destination. Review-platform profiles are widely associated with materially higher citation likelihood for B2B brands, and cited articles appear disproportionately on review platforms compared with uncited ones.</p>
 
 <p>Practically: a cluster strategy needs an off-site component — one earned mention on a listicle, one substantive forum contribution, one review-platform profile, one citable original dataset that others quote. These are not "link building". They are the corroborating evidence that makes your own pages believable. One feature in a well-respected publication in your field can move your AI citation potential further than dozens of low-context links.</p>
 
@@ -243,7 +243,7 @@
 
 <h3>How recency actually decays</h3>
 
-<p>ChatGPT's retrieval system applies an explicit recency multiplier to source age, and published research on the factor has circulated the following ladder: content within three months of publication or update scores at baseline (roughly 1.0), three to six months around 0.8, six to twelve around 0.5, twelve to twenty-four around 0.2, and beyond twenty-four months around 0.05. The practical reading is that old content is not penalized — it simply stops being worth retrieving for time-adjacent queries, which is a quieter and much harder failure than a ranking drop because nothing announces it.</p>
+<p>ChatGPT's retrieval system applies an explicit recency multiplier to source age. One published compilation of recency scores (<a href="https://cleversearch.ai/blog/ai-search-ranking-factors" rel="nofollow noopener" target="_blank">CleverSearch, 2026</a>) puts content within three months of publication or update at baseline (roughly 1.0), three to six months around 0.8, six to twelve around 0.5, twelve to twenty-four around 0.2, and beyond twenty-four months around 0.05 — read that ladder as a vendor estimate, not a published engine specification. A separate retrieval-layer measurement across ChatGPT, AI Overviews, Gemini and Perplexity found a one-year half-life, with each further year of age cutting a page's presence in the retrieval layer by roughly 40–60% (<a href="https://takeagander.ai/resources/gander-blog/how-content-freshness-drives-visibility-in-ai-search/" rel="nofollow noopener" target="_blank">Gander, 2026</a>). The practical reading is that old content is not penalized — it simply stops being worth retrieving for time-adjacent queries, which is a quieter and much harder failure than a ranking drop because nothing announces it.</p>
 
 <p>Note what this ladder does and does not say. It says nothing about evergreen questions. A definitional guide on a stable concept can be three years old and still be the best available source, because the retriever's job is to find the best answer to "what is X", not the newest. If your page answers an evergreen question, its age is close to irrelevant; if it answers a question whose answer changes, age is fatal. <strong>Classify every page by whether its answer decays, then apply the refresh policy accordingly.</strong> Most sites apply one policy to two incompatible page types and end up refreshing evergreen pages unnecessarily while letting decaying pages rot.</p>
 
@@ -262,7 +262,7 @@
     <li>Update <code>dateModified</code> in Article schema and the visible "last updated" line — <em>after</em> the substantive edits, never before</li>
 </ul>
 
-<p>Cost, for calibration: roughly two to four hours of analyst time per article, and visible traffic effect typically inside four to six weeks. One documented case refreshed 42 existing articles meeting a decay threshold and produced a 96% traffic increase without publishing a single new article. Treat that figure as directional — it is a single documented case, and it comes from a site with an established index — but the direction is the thing worth remembering: <strong>for a site with thirty or more indexed articles, refresh ROI routinely beats new-content ROI.</strong></p>
+<p>Cost, for calibration: our own planning assumption is roughly two to four hours of analyst time per article, with a visible traffic effect typically inside four to six weeks — treat both as estimates to replace with your own numbers rather than as benchmarks. One documented case did it on a single site: <a href="https://tabithawhiting.com/2025/01/28/content-refresh" rel="nofollow noopener" target="_blank">Single Grain, via Tabitha Whiting, 2025</a> refreshed 42 of its own posts, lifted their combined traffic by 96% over six months and published nothing new — but most of that gain came from a handful of posts, and the refreshed posts that started with fewer than 20 monthly visitors mostly saw none. That is the direction worth remembering: <strong>refresh ROI often beats new-content ROI, and the deciding variable is the traffic a page already earns, not how old it is.</strong></p>
 
 <h3>Scoring refresh candidates instead of arguing about them</h3>
 
@@ -309,7 +309,7 @@
 
 <p>Cluster expansion has its own trigger conditions, which are worth writing down because expansion without a trigger is how sites end up with thirty thin pages and one good one. Expand when a new competitor enters the category (add a comparison spoke), when a new use-case segment becomes commercially relevant (add a segment spoke), when a new dataset becomes available (update the benchmark spoke or add one), when a query type starts attracting traffic with no coverage behind it (add an intent spoke), or when an adjacent topic is starting to appear in your citation panel (extend the cluster boundary).</p>
 
-<p>That last point is the mechanism by which topical authority compounds. Authority transfers to closely related subjects but falls off sharply once the topic drifts past your demonstrated expertise — so the correct expansion direction is adjacent-first, never random. A site strong in "commercial web design" does not automatically earn citations for "enterprise cybersecurity", and a cluster that sprawls across unrelated topics reads to an engine as several weak sites rather than one strong one.</p>
+<p>That last point is the mechanism by which topical authority compounds. Authority transfers to closely related subjects in practice and falls off once the topic drifts past your demonstrated expertise — treat that boundary as a working rule rather than a measured constant, so the correct expansion direction is adjacent-first, never random. A site strong in "commercial web design" does not automatically earn citations for "enterprise cybersecurity", and a cluster that sprawls across unrelated topics reads to an engine as several weak sites rather than one strong one.</p>
 
 <h2 id="measure">Measuring a cluster instead of a page</h2>
 
@@ -409,9 +409,24 @@
             <li><a href="geo-citation-tracking-2026.html">AI citation tracking in 2026</a> — the cluster-level measurement stack</li>
     </ul>
 </div>
+
+<h2>Sources</h2>
+<ul>
+    <li><a href="https://takeagander.ai/resources/gander-blog/how-content-freshness-drives-visibility-in-ai-search/" rel="nofollow noopener" target="_blank">Gander, 2026</a> — the retrieval-layer freshness measurement behind the one-year half-life finding and the per-year visibility decay across four engines</li>
+    <li><a href="https://cleversearch.ai/blog/ai-search-ranking-factors" rel="nofollow noopener" target="_blank">CleverSearch, 2026</a> — the recency-score compilation behind the age-band table, treated as a vendor estimate rather than an engine specification</li>
+    <li><a href="https://arxiv.org/abs/2609.35077" rel="nofollow noopener" target="_blank">Moore & Dunne, 2026</a> — the multi-engine study of production citation drivers behind the claim that domain-level authority outweighs page-level tricks</li>
+    <li><a href="https://llmrefs.com/generative-engine-optimization" rel="nofollow noopener" target="_blank">LLMrefs, 2026</a> — the practitioner guide behind the cluster-effect framing of how engines treat a topic cluster</li>
+    <li><a href="https://ziptie.dev/blog/ai-search-as-a-discovery-channel" rel="nofollow noopener" target="_blank">ZipTie, 2026</a> — the cross-platform visibility research behind the finding that third-party listicles and review platforms carry much of the citation load</li>
+    <li><a href="https://presenceai.app/blog/ai-brand-visibility-checker-free-tools-to-test-your-citations" rel="nofollow noopener" target="_blank">PresenceAI, 2026</a> — the citation-pattern guide behind the claim that content format changes how often a page gets cited</li>
+    <li><a href="https://tabithawhiting.com/2025/01/28/content-refresh" rel="nofollow noopener" target="_blank">Single Grain, via Tabitha Whiting, 2025</a> — the content refresh case study behind the refresh figures quoted in this article</li>
+</ul>
+
+<p>Figures are point-in-time study results with differing methods and panels; most vendor-reported multipliers originate from proprietary datasets that cannot be independently reproduced, so treat them as directional. Correlation is not causation, and cluster size alone does not guarantee citation — measure against your own baseline, not an industry benchmark.</p>
+
+
 <footer>
     <p><strong>Written by Long Yaren</strong> — freelance SEO &amp; GEO consultant. I help B2B and D2C brands build measurable visibility in AI search and defend it as a channel, not a campaign. Available for projects via <a href="https://www.upwork.com/freelancers/longyaren" target="_blank" rel="noopener">Upwork</a>.</p>
-    <p>Sources referenced in this article: published recency-multiplier analysis of ChatGPT retrieval (SearchLove 2026, February 2026); cluster-effect and citation-rate research from LLMrefs, Citera, ZipTie, SE Ranking and Discovered Labs (2025-11 through 2026); topical authority and refresh-cadence studies from DigitalArka (August 2026), NextGrowth (composite refresh scoring) and Search Engine Journal's documented case of refreshing 42 decaying posts for a 96% traffic increase without new publication; content-format citation-density rankings from PresenceAI (2026) and authoricy's B2B citation analysis; third-party listicle and review-platform citation share research (Wix Studio, 2026, 75K AI answers); 2026 GEO trend analyses from Status Labs, Canterbury TDI, SEO.com and the-web-design-company, including evidence of topic-authority transfer boundaries in ChatGPT. Figures are point-in-time study results with differing methods and panels; most vendor-reported multipliers originate from proprietary datasets that cannot be independently reproduced, so treat them as directional. Correlation is not causation, and cluster size alone does not guarantee citation — measure against your own baseline, not an industry benchmark.</p>
+    
 </footer>
 </article>
 </body>
