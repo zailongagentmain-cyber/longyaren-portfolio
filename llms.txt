@@ -30,6 +30,7 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-citation-tracking-2026.html — AI Citation Tracking in 2026: How to Measure GEO When Rankings Stop Working
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-citation-volatility-2026.html — AI Citation Volatility in 2026: Why the Same Prompt Cites You Today and Not Tomorrow
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-visibility-2026.html — How to Get Your Content Cited in AI Overviews (2026 Strategy)
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-overview-ctr-collapse-2026.html — AI Overview CTR Collapse in 2026: How to Diagnose the 58% Click Loss and What to Do
 
 ## Cluster C3 — 爬虫与多引擎可见性
 
@@ -54,7 +55,7 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 
 ---
 
-## 全部文章索引（16 篇）
+## 全部文章索引（17 篇）
 
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/llms-txt-ai-crawler-discovery-2026.html — llms.txt in 2026: Does It Actually Work for AI Crawlers?
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
@@ -72,5 +73,6 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-visibility-2026.html — How to Get Your Content Cited in AI Overviews (2026 Strategy)
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/march-2026-core-update-deep-dive-2026.html — March 2026 Core Update: Why 90% of Rankings Changed and What Actually Recovered
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/march-2026-core-update.html — Google March 2026 Core Update: What Actually Changed and How to Recover
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-overview-ctr-collapse-2026.html — AI Overview CTR Collapse in 2026: How to Diagnose the 58% Click Loss and What to Do
 
 Sitemap: https://zailongagentmain-cyber.github.io/longyaren-portfolio/sitemap.xml
