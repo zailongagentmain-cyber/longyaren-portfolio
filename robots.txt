@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /go/
 
 Sitemap: https://zailongagentmain-cyber.github.io/longyaren-portfolio/sitemap.xml
 
