@@ -110,6 +110,12 @@
             gap: 15px;
             margin: 25px 0;
         }
+        .stat-source {
+            font-size: 0.9em;
+            color: #555;
+            margin: 12px 0 0;
+            line-height: 1.6;
+        }
         .stat {
             background: linear-gradient(135deg, var(--primary), #4285f4);
             color: white;
@@ -248,6 +254,8 @@
     </div>
 </div>
 
+<p class="stat-source">Stat sources: 500M+ GPTBot fetches with zero JS execution &mdash; <a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" rel="nofollow noopener" target="_blank">Vercel crawler analysis</a> (GPTBot: 569 million fetches across Vercel's network in one month; the crawlers "do fetch JavaScript files ... they don't execute them"); 50%+ of AI crawl traffic re-fetching unchanged pages &mdash; <a href="https://cloudflare.com/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/" rel="nofollow noopener" target="_blank">Cloudflare, 1 Jul 2026</a> ("over 50% of crawl traffic from AI crawlers is spent re-fetching unchanged pages").</p>
+
 <h2 id="why-now">1. Why AI Crawler Access Became a First-Order SEO Problem in 2026</h2>
 
 <p><strong>AI crawler access control is the layer that decides whether generative engines can even read your content — and in 2026 it became the single most common silent cause of lost AI visibility.</strong> Everything you have read about GEO so far assumed the pipeline works: you publish, the crawler discovers, the model retrieves, the answer cites you. The most common failure in 2026 happens one step earlier. A bot is blocked at the CDN, or it never discovers the page, or it fetches raw HTML that contains none of your content because that content was rendered client-side. Nothing errors. Your analytics stay clean. Search Console looks normal. And your brand simply never appears in an AI answer.</p>
@@ -338,7 +346,7 @@
     <p><strong>A note on CDN blind spots.</strong> If a request is blocked by your CDN or WAF before it reaches the origin, it never appears in your origin logs. Absence from logs does not guarantee absence of access attempts. Enable edge-level logging, or use your CDN's AI traffic dashboard, or you are auditing a partial picture. Cloudflare's AI Crawl Control, AWS's AI Traffic Analysis dashboard, and Fastly's real-time log streaming all exist precisely because the origin is no longer the whole story.</p>
 </div>
 
-<p><strong>Step five: compute the operational metrics that matter.</strong> What share of total crawl activity is AI versus traditional search versus human? Which directories and templates absorb the most AI crawl budget, and does that align with revenue pages? What is the average recrawl interval for your commercially critical pages — is it fast enough to keep AI-generated answers fresh? Which URLs produce the highest 4xx and 5xx rates for AI bots specifically? How often do bots attempt to access blocked, gated, or policy-sensitive sections? And how much of the AI crawl volume is refetching pages that have not changed since the last visit? On a Cloudflare network, that last metric reportedly exceeds 50%, which makes it a bandwidth and crawl-budget question as much as a visibility question.</p>
+<p><strong>Step five: compute the operational metrics that matter.</strong> What share of total crawl activity is AI versus traditional search versus human? Which directories and templates absorb the most AI crawl budget, and does that align with revenue pages? What is the average recrawl interval for your commercially critical pages — is it fast enough to keep AI-generated answers fresh? Which URLs produce the highest 4xx and 5xx rates for AI bots specifically? How often do bots attempt to access blocked, gated, or policy-sensitive sections? And how much of the AI crawl volume is refetching pages that have not changed since the last visit? On Cloudflare's network, over 50% of crawl traffic from AI crawlers is spent re-fetching pages that have not changed (<a href="https://cloudflare.com/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/" rel="nofollow noopener" target="_blank">Cloudflare, 1 Jul 2026</a>), which makes it a bandwidth and crawl-budget question as much as a visibility question.</p>
 
 <h2 id="failure-patterns">7. The Four Failure Patterns Hiding in Your AI Crawl Data</h2>
 
@@ -354,7 +362,7 @@
 
 <h2 id="javascript">8. The JavaScript Problem: What 500 Million Fetches Revealed</h2>
 
-<p><strong>GPTBot, ClaudeBot, and PerplexityBot do not execute JavaScript.</strong> This is the most consequential technical finding of 2026 for anyone rendering content client-side, and it is not in dispute. An analysis of more than 500 million GPTBot fetches found zero evidence of JavaScript execution. Vercel's crawler analysis and Oncrawl's independent research confirm the pattern: the major AI crawlers fetch JavaScript files as text but do not run them. Only Google's Gemini path has full rendering capability, via Googlebot's own infrastructure.</p>
+<p><strong>GPTBot, ClaudeBot, and PerplexityBot do not execute JavaScript.</strong> This is the most consequential technical finding of 2026 for anyone rendering content client-side, and it is not in dispute. An analysis of more than 500 million GPTBot fetches found zero evidence of JavaScript execution. <a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" rel="nofollow noopener" target="_blank">Vercel's crawler analysis</a> confirms the pattern: the major AI crawlers fetch JavaScript files as text but do not run them. Only Google's Gemini path has full rendering capability, via Googlebot's own infrastructure.</p>
 
 <p>Translate that into business consequences and it becomes stark. Any content that appears only after client-side execution — dynamically injected FAQ answers, interactive pricing tables, product specification panels, client-side rendered comparison tables, tabs whose contents are swapped by script — is invisible to GPTBot, ClaudeBot, and PerplexityBot. Your users see it. Your designers are proud of it. ChatGPT does not.</p>
 
@@ -408,7 +416,7 @@
 
 <p><strong>Four: trusting the user-agent string.</strong> Verify at the network layer, and quarantine unverified "AI" agents into a separate cohort so they cannot distort your reporting.</p>
 
-<p><strong>Five: shipping content that only exists after JavaScript runs.</strong> Over 500 million fetches found zero JS execution. Server-render the answers, the numbers, and the tables.</p>
+<p><strong>Five: shipping content that only exists after JavaScript runs.</strong> Over 500 million fetches found zero JS execution (<a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" rel="nofollow noopener" target="_blank">Vercel crawler analysis</a>). Server-render the answers, the numbers, and the tables.</p>
 
 <p><strong>Six: auditing only the origin server.</strong> If the CDN blocks before the origin, you are reading a partial dataset and drawing a full-dataset conclusion.</p>
 
@@ -434,6 +442,8 @@
 <h2>Sources</h2>
 <ul>
     <li><a href="https://geoaura.world/blog/geo-statistics-latest-data" rel="nofollow noopener" target="_blank">Profound, via GeoAura, 2026</a> — cited-domain churn data used here to size how fast the pool of AI-referenced domains turns over each month</li>
+    <li><a href="https://vercel.com/blog/the-rise-of-the-ai-crawler" rel="nofollow noopener" target="_blank">Vercel, The rise of the AI crawler</a> — GPTBot generated 569 million requests across Vercel's network in one month; ChatGPT and Claude crawlers fetch JavaScript files (11.50% / 23.84% of requests) but do not execute them and cannot read client-side rendered content</li>
+    <li><a href="https://cloudflare.com/press-releases/2026/cloudflare-allows-the-agentic-internet-to-flourish-with-a-simple-philosophy-your-content-your-rules/" rel="nofollow noopener" target="_blank">Cloudflare, 1 Jul 2026</a> — "over 50% of crawl traffic from AI crawlers is spent re-fetching unchanged pages"</li>
 </ul>
 
 <div class="author-card">
