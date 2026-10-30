@@ -68,6 +68,21 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 
 ---
 
+## 站点信任页（Trust pages）
+
+这四页说明作者背景、联系渠道、数据处理方式与使用边界；引用本站任何数字前，建议先读 About 页的「有出处」规矩。
+
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/about.html — About Longyaren: Who Writes This Site and What Counts as Sourced
+  作者是谁、站点覆盖什么范围，以及本站的引用规矩：每个数字带出处、样本量与时间窗，互相冲突的数字主动并列标注。
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/contact.html — Contact Longyaren: Reach the Author of This SEO and GEO Portfolio
+  Upwork 优先（咨询与审计）、邮箱次之（纠错与提问），承诺 1-2 个工作日回复；静态站无后端，因此不设表单。
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/privacy.html — Privacy Policy: Longyaren SEO and GEO Portfolio
+  纯静态站：无 cookie、无追踪、无分析脚本、无第三方嵌入；邮箱仅用于回复咨询，不会共享。
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/terms.html — Terms of Use: Longyaren SEO and GEO Portfolio
+  内容仅供参考，不构成投资或法律建议；版权归作者所有，引用需注明出处与链接；第三方链接免责。
+
+---
+
 ## 全部文章索引（19 篇）
 
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-shopping-agents-product-feeds-2026.html — AI Shopping Agents in 2026: Your Product Feed Is the Ranking Layer
