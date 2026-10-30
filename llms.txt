@@ -56,8 +56,21 @@ Longyaren 是一名独立 SEO / GEO（Generative Engine Optimization）顾问，
 
 ---
 
-## 全部文章索引（18 篇）
+## Cluster C5 — AI 购物代理与 Agentic Commerce
 
+支柱页：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/geo-guide-2026.html
+  AI Overviews 与 AI 引擎可见性总纲（购物代理篇的母篇）。
+
+文章：
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-shopping-agents-product-feeds-2026.html — AI Shopping Agents in 2026: Your Product Feed Is the Ranking Layer
+  产品 feed 即排名层：九个必填字段、conversational attributes、agent-readability 测量与 30 天清单。
+
+---
+
+## 全部文章索引（19 篇）
+
+- https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-shopping-agents-product-feeds-2026.html — AI Shopping Agents in 2026: Your Product Feed Is the Ranking Layer
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/machine-readable-dates-ai-citations-2026.html — Machine-Readable Dates in 2026: The Only On-Page Feature That Survived a Same-Search Test
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/llms-txt-ai-crawler-discovery-2026.html — llms.txt in 2026: Does It Actually Work for AI Crawlers?
 - https://zailongagentmain-cyber.github.io/longyaren-portfolio/ai-search-platform-comparison-2026.html — AI Search Platform Comparison 2026: ChatGPT, Perplexity, Gemini, Claude, Copilot and Doubao
