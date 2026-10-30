@@ -1,0 +1,1 @@
+{"rewrites":[{"source":"/go/:slug","destination":"/api/go?slug=:slug"}],"functions":{"api/go.js":{"runtime":"nodejs20.x"}}}
